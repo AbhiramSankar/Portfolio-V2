@@ -3,17 +3,15 @@ import AnimatedLetters from '../AnimatedLetters'
 import Profile from '../../assets/img/AboutMe.png'
 import myHistory from '../../assets/data/myHistory.json'
 import skills from '../../assets/data/skills.json'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
-import gsap from 'gsap-trial'
 import './index.scss'
 import TimeLine from '../Timeline'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-// import Loader from '../Loader'
-// import { useLocation } from 'react-router-dom'
 import ScrollDown from '../ScrollDown'
 import { useSelector } from 'react-redux'
+import anime from 'animejs'
+
 
 // import * as Icon from '@fortawesome/free-solid-svg-icons'
 
@@ -39,28 +37,22 @@ const AboutMe = () => {
 
   useEffect(() => {
     if (didAnimate.current === false) {
-      gsap.registerPlugin(DrawSVGPlugin)
-      gsap
-        .timeline()
-        .to(bgRef.current, {
-          duration: 1,
-          opacity: 1,
-        })
-        .from('path', {
-          drawSVG: 0,
-          duration: 5,
-        })
-      gsap.fromTo(
-        profileImgRef.current,
-        {
-          opacity: 0,
-        },
-        {
-          opacity: 1,
-          // delay: 4,
-          duration: 2,
-        }
-      )
+      var timeline = anime.timeline({})
+
+      timeline.add({
+        targets:'#Layer_1 path',
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: 'easeInOutSine',
+        duration: 7000,
+        direction: 'normal'
+      })
+     timeline.add({
+      targets: '.profileImage',
+      easing: 'linear',
+      duration: 2000,
+      opacity: 1,
+      direction: 'normal'
+     }, '-=6000')
       return () => {
         didAnimate.current = true
       }

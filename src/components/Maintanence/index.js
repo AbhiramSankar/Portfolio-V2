@@ -11,7 +11,7 @@ const Maintanence = () => {
     <div>
       <div className="maintPage">
         <div>Sorry...the website is down for maintanence...for now...</div>
-        <div>Please wait for me bring it back tp life</div>
+        <div>Please wait for me bring it back to life</div>
         <div>If you want to know about me...</div>
         <a  target="_blank"
             rel="noreferrer"

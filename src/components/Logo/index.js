@@ -1,8 +1,7 @@
 import './index.scss'
 import LogoAS from '../../assets/img/logo6.png'
 import { useEffect, useRef} from 'react'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
-import gsap from 'gsap-trial'
+import anime from 'animejs'
 
 const Logo = (props) => {
   const bgRef = useRef()
@@ -21,28 +20,24 @@ const Logo = (props) => {
 
   useEffect(() => {
     if (didAnimate.current === false) {
-      gsap.registerPlugin(DrawSVGPlugin)
-      gsap
-        .timeline()
-        .to(bgRef.current, {
-          duration: 1,
-          opacity: 0.5,
-        })
-        .from('path', {
-          drawSVG: 0,
-          duration: 5,
-        })
-      gsap.fromTo(
-        solidLogoRef.current,
-        {
-          opacity: 0,
-        },
-        {
-          opacity: 0.5,
-          delay: 4,
-          duration: 4,
-        }
-      )
+      
+      var timeline = anime.timeline({})
+
+      timeline.add({
+        targets: '#Layer_1 path',
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: 'easeInOutSine',
+        duration: 4000,
+        opacity:[0, 0.5],
+        direction: 'normal'
+      })
+      timeline.add({
+        targets: '.solidLogo',
+        easing: 'linear',
+        duration: 2000,
+        opacity: 0.5,
+        direction: 'normal'
+      })
       return () => {
         didAnimate.current = true
       }
@@ -51,7 +46,7 @@ const Logo = (props) => {
 
   return (
     <div className={`logoContainer ${logo_wrapper_classes}`} ref={bgRef}>
-      <img ref={solidLogoRef} className={`solidLogo  ${img_classes}`} src={LogoAS} alt="AS" />
+      <img ref={solidLogoRef} id='solidLogo' className={`solidLogo  ${img_classes}`} src={LogoAS} alt="AS" />
       <svg
         id="Layer_1"
         data-name="Layer 1"
