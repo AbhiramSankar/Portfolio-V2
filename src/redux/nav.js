@@ -7,7 +7,7 @@ export const navigation = createSlice ({
         isLoading: false,
         isReload: true,
         sectionCount: 1,
-        maintenance: false,
+        maintenance: true,
     },
     reducers: {
         setCurrent: (state, action) => {
