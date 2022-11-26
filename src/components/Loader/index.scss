@@ -1,0 +1,73 @@
+@use '../../variables';
+
+.loaderContainer {
+  background-color: variables.$secondary;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  position: absolute;
+  display: none;
+  z-index: 2;
+  .loadingLogo{
+    width: 50px;
+    opacity: 0.75;
+    left: 46%;
+    transform: rotateZ(25deg);
+    margin: auto;
+    top: 35%;
+    position: absolute;
+  }
+  .loadingText{
+    color: variables.$tertiary_75;
+    left: 43%;
+    font-size: min(1.5rem, 3vh);
+    font-family: variables.$secondary_font;
+    margin: auto;
+    top: 46%;
+    text-align: center;
+    position: absolute;
+
+  }
+  .loader {
+    width: 15%;
+    height: 4.8px;
+    display: inline-block;
+    left: 40%;
+    margin: auto;
+    top: 50%;
+    position: absolute;
+    background: rgb(121, 148, 181);
+    overflow: hidden;
+    border-radius: 1px;
+  }
+}
+.loaderEntry{
+  animation: slideInRight 0.5s;
+  display: block;
+  .loader::after {
+    content: '';
+    box-sizing: border-box;
+    width: 0;
+    height: 4.8px;
+    background: variables.$primary;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animFw 1s linear;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+}
+.loaderExit{
+  display: block;
+  animation: slideOutRight 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes animFw {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}

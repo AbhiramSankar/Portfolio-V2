@@ -1,0 +1,390 @@
+{
+  "data": [
+    {
+      "title": "Product Manager Web App",
+      "completed_on": "22 . MAY . 2022",
+      "skills": ["React", "Laravel", "JavaScript", "PHP", "HTML", "CSS"],
+      "links": {
+        "site": "https://prodmanapp.000webhostapp.com/login",
+        "github": "https://github.com/AbhiramSankar/ProductManagerWebApp",
+        "gitlab": "https://gitlab.com/AbhiramSankar/ProductManagerWebApp"
+      },
+      "text": {
+        "para1": "Lorem Ipsum"
+      },
+      "img":"PMA.png"
+    },
+
+    {
+      "title": "Skin Cancer Detection Using Deep Learning",
+      "completed_on": "24.MARCH.2022",
+      "skills": [
+        "Deep Learning",
+        "Python",
+        "TensorFlow",
+        "Image Classification",
+        "Neural Networks"
+      ],
+      "mentor": "Dr. Malaya Kumar Nath",
+      "links": {
+        "report": "https://drive.google.com/file/d/1QaV_MVcQOgzdutaDMeAwOgfbSpj1XwKH/view?usp=sharing",
+        "github": "https://github.com/AbhiramSankar/SkinCancerDetection.git",
+        "gitlab": "https://gitlab.com/AbhiramSankar/SkinCancerDetection.git"
+      },
+      "text": {
+        "para1": "Skin cancer is one of the most common types of cancer, with many variations including Basal cell carcinoma, Squamous cell carcinoma, Merkel cell cancer, and Melanoma, to name a few. Malignant Melanoma is the most lethal type of skin cancer, and early detection can help increase survival. Because of advancements in computer science and AI development, Machine Learning Algorithms can now be used to aid in this early detection. Despite the fact that this system is not perfect and is not widely accepted by most people, including scientists and researchers, Machine Learning has enormous potential in assisting in Medical Science.",
+        "para2": "We are attempting to recognize and classify benign and malignant skin cancer using Deep Learning and Neural Network Algorithms with the help of Dermoscopy image data and other data available in this project. This project is being completed on Google Collab with the help of the Tensorflow Library. A portion of the ISIC Archive data, ISIC 2019 Challenge and ISIC 2020 Challenge Dataset are used to train and test the model. We used the InceptionV3 and other similar models to train our data, and then we tested it against our test data. We also attempted to use patient data to train Standardized Models and Neural Networks. With these various models, we obtained varying results."
+      },
+      "img":"SCD.png"
+    },
+
+    {
+      "title": "YELP Data Analysis",
+      "completed_on": "19.OCTOBER.2021",
+      "skills": ["SQL", "SQLite", "Data Science", "Data Analysis"],
+      "mentor": "Sadie St. Lawrence",
+      "links": {
+        "report": "https://drive.google.com/file/d/1aBi7hfEZ48qoq2YzL3Uuk22B2f4Ylq-v/view?usp=sharing",
+        "github": "https://github.com/AbhiramSankar/YelpDataAnalysis.git",
+        "gitlab": "https://gitlab.com/AbhiramSankar/YelpDataAnalysis.git"
+      },  
+      "text": {
+        "para1": "This was created as the final assignment for the SQL for Data Science Course, in which I will play the role of a real-world data scientist using SQL to answer specific questions for an organisation and make inferences based on your discoveries. I was given a dataset from Yelp, a company based in the United States that provides a platform for users to provide reviews and rate their interactions with a variety of organisations – businesses, restaurants, health clubs, hospitals, local governmental offices, charitable organisations, and so on. Yelp has made some of this information available for personal, educational, and academic use.",
+        "para2": "In the first part of the assignment, a series of questions about the data is prepared to help profile and better understand the data. In the second part of the assignment, I will generate your own research question and prepare a dataset for the analysis I have chosen to conduct."
+      },
+      "img":"YELP1.png"
+
+    },
+
+    {
+      "title": "Deep Learning",
+      "completed_on": "13.SEPTEMBER.2021",
+      "skills": [
+        "Deep Learning",
+        "Machine Learning",
+        "Python",
+        "TuriCreate",
+        "Image Retrieval"
+      ],
+      "mentor": "Emily Fox and Carlos Guestrin",
+      "links": {
+        "github": "https://github.com/AbhiramSankar/DeepLearning.git",
+        "gitlab": "https://gitlab.com/AbhiramSankar/DeepLearning.git"
+      },
+      "text": {
+        "para1": "This assignment focuses on using deep learning to generate nonlinear features in order to improve machine learning performance. Transfer learning techniques are used to apply deep features learned from one dataset to achieve excellent performance on another. This model was created to help with image retrieval and classification tasks.",
+        "para2": "There are four tasks in this assignment which include - computing summary statistics of the data, creating category-specific image retrieval models, trying a simple example of nearest-neighbors classification and computing nearest neighbors accuracy."
+      },
+      "img":"DL.png"
+    },
+
+    {
+      "title": "Song Recommender",
+      "completed_on": "06.SEPTEMBER.2021",
+      "skills": [
+        "Machine Learning",
+        "Python",
+        "TuriCreate",
+        "Recommender Systems"
+      ],
+      "mentor": "Emily Fox and Carlos Guestrin",
+      "links": {
+        "github": "https://github.com/AbhiramSankar/SongRecommender.git",
+        "gitlab": "https://gitlab.com/AbhiramSankar/SongRecommender.git"
+      },
+      "text": {
+        "para1": "The recommendation system's overall goal is to personalize content and identify relevant data for audiences. These contents could include articles, movies, games, and so on. A recommendation system can be classified into three types: content-based, collaborative, and popularity. In this project, a model for recommending songs was developed that compared a simple popularity-based recommendation model to a personalized model, demonstrating the significant improvement provided by personalization.",
+        "para2": "The following are the tasks involved in the project: counting the unique users, Using groupby-aggregate to find the most popular and least popular artists, and optionally using groupby-aggregate to find the most recommended songs."
+      },
+      "img":"SR.png"
+    },
+
+    {
+      "title": "Document Retrieval",
+      "completed_on": "30.AUGUST.2021",
+      "skills": [
+        "Machine Learning",
+        "Python",
+        "TuriCreate",
+        "Clustering Models",
+        "Document Similarity"
+      ],
+      "mentor": "Emily Fox and Carlos Guestrin",
+      "links": {
+        "github": "https://github.com/AbhiramSankar/DocumentRetrieval.git",
+        "gitlab": "https://gitlab.com/AbhiramSankar/DocumentRetrieval.git"
+      },
+      "text": {
+        "para1": "This is the process of obtaining information system resources relevant to a specific information need from a collection of those resources. Full-text or other content-based indexing can be used to conduct searches. By analyzing their text, we used nearest neighbors and clustering to retrieve documents of interest to the users. There are two types of document representations considered: word counts and TF-IDF (Term Frequency - Inverse Document Frequency).",
+        "para2": "In this assignment, a Jupyter notebook was created to retrieve Wikipedia articles about famous people. The retrieval results for various famous people were explored, and the code required to build a retrieval system was familiarized."
+      },
+      "img":"DR.png"
+    },
+
+    {
+      "title": "Analyzing Product Sentiment",
+      "completed_on": "23.AUGUST.2021",
+      "skills": [
+        "Machine Learning",
+        "Python",
+        "TuriCreate",
+        "Sentiment Analysis"
+      ],
+      "mentor": "Emily Fox and Carlos Guestrin",
+      "links": {
+        "github": "https://github.com/AbhiramSankar/ProductSentimentAnalysis.git",
+        "gitlab": "https://gitlab.com/AbhiramSankar/ProductSentimentAnalysis.git"
+      },
+      "text": {
+        "para1": "Sentiment analysis is the automated process of determining a text's sentiment or opinion. It can be used to automatically analyze product reviews and sort them into Positive, Neutral, and Negative categories. A company can/may use Sentiment Analysis to drive proactive business solutions. Sentiment analysis can help business leaders understand the motivations behind positive, negative, or neutral opinions about a product or service. This can be obtained by reading blogs, reviews, forums, news articles, and social media posts.",
+        "para2": "In this project, we used classifiers to analyze product sentiment and learn about the different types of errors that classifiers make. Using this, we trained a sentiment analysis model with a subset of key polarizing words, verified the weights learned for each of these words, and compared the results of this simpler classifier to those of the one that used all of the words."
+      },
+      "img":"PS.png"
+    },
+
+    {
+      "title": "Predicting House Prices",
+      "completed_on": "16.AUGUST.2021",
+      "skills": [
+        "Machine Learning",
+        "Python",
+        "TuriCreate",
+        "Regression Model"
+      ],
+      "mentor": "Emily Fox and Carlos Guestrin",
+      "links": {
+        "github": "https://github.com/AbhiramSankar/PredictingHousePrices.git",
+        "gitlab": "https://gitlab.com/AbhiramSankar/PredictingHousePrices.git"
+      },
+      "text": {
+        "para1": "A regression model provides a function to determine the relationship between an independent variable and a dependent variable. Creating a regression analysis allows you to predict the effects of the independent variable on the dependent variable. Regression models are commonly used to provide statistical support for claims about everyday facts. In this article, we will look at regression models and their various types in greater detail. Regression models are classified into three types: Simple Linear, Multiple Linear, and Non Linear.",
+        "para2": "Using this, we built a regression model to predict house prices based on house features (square feet of living space, number of bedrooms, etc.) using data from King County, USA, the region where the city of Seattle is located. This allowed me to become more acquainted with how the Python programming language can be used for data exploration, data transformations, and machine learning."
+      },
+      "img":"HPP.png"
+    },
+
+    {
+      "title": "Space Station Escape",
+      "completed_on": "29.JULY.2021",
+      "skills": [
+        "Unity",
+        "C#",
+        "Game Development",
+        "Game Design",
+        "2D Platformer"
+      ],
+      "mentor": "Brian Winn",
+      "links": {
+        "itch_io": "https://aziogames1205.itch.io/space-shuttle-escape",
+        "github": "https://github.com/AbhiramSankar/SpaceShuttleEscape.git",
+        "gitlab": "https://gitlab.com/AbhiramSankar/SpaceShuttleEscape.git"
+      },
+      "text": {
+        "para1": "The Unity Engine was used to create this 2D platformer game. This game has four levels and features such as different types of enemies and a dialogue system. A comprehensive in-game menu is also designed.",
+        "para2": "This game is about an astronaut who is trapped in a space station that is being attacked by aliens. The goal of the game is to advance to the next level of the station before time runs out. This is a simple game in which you must collect points and keys in order to escape."
+      },
+      "img":"SSE.png"
+    },
+
+    {
+      "title": "Space Defender",
+      "completed_on": "6.JULY.2021",
+      "skills": [
+        "Unity",
+        "C#",
+        "Game Development",
+        "Game Design",
+        "2D Shooter"
+      ],
+      "mentor": "Brian Winn",
+      "links": {
+        "itch_io": "https://aziogames1205.itch.io/space-defender",
+        "github": "https://github.com/AbhiramSankar/SpaceDefender.git",
+        "gitlab": "https://gitlab.com/AbhiramSankar/SpaceDefender.git"
+      },
+      "text": {
+        "para1": "This 2D Shooter game was created using the Unity Engine. This game has three levels and features such as various enemy and obstacle types and an enemy spawning system. A detailed in-game menu is also designed.",
+        "para2": "In this game, the player controls a space fighter craft that must defeat enemy ships in order to prevent their planet from being invaded. Levels 1 and 2 can be completed by defeating 5 and 10 enemy ships, respectively. Level 3 is an infinite level in which the player must defeat as many enemy ships as possible."
+      },
+      "img":"SD.png"
+    },
+
+    {
+      "title": "Solar System Model",
+      "completed_on": "1.JULY.2021",
+      "skills": [
+        "Unity",
+        "C#",
+        "Game Development",
+        "Game Design",
+        "Simulation"
+      ],
+      "mentor": "Brian Winn",
+      "links": {
+        "itch_io": "https://aziogames1205.itch.io/solar-system",
+        "github": "https://github.com/AbhiramSankar/SolarSystemModel.git",
+        "gitlab": "https://gitlab.com/AbhiramSankar/SolarSystemModel.git"
+      },
+      "text": {
+        "para1": "The Unity Engine was used to create this 3D simulation of the Solar System. This game includes a Comet Spawning System as well as an Interactive Mini-Map.",
+        "para2": "This model includes the Sun, the rocky planets Mercury, Venus, Earth, and Mars, as well as the Moon. This model also includes a comet spawning system that spawns comets at regular intervals at random. It is important to note that this model is not scaled."
+      },
+      "img":"SolarSystem.png"
+    },
+
+    {
+      "title": "Box Shooter",
+      "completed_on": "28.JUNE.2021",
+      "skills": [
+        "Unity",
+        "C#",
+        "Game Development",
+        "Game Design",
+        "3D Shooter"
+      ],
+      "mentor": "Brian Winn",
+      "links": {
+        "itch_io": "https://aziogames1205.itch.io/box-shooter",
+        "github": "https://github.com/AbhiramSankar/BoxShooter.git",
+        "gitlab": "https://gitlab.com/AbhiramSankar/BoxShooter.git"
+      },
+      "text": {
+        "para1": "This is a 3D Shooter game made with the Unity Engine. This game has two levels and features such as targets with different point types and a target spawning system.",
+        "para2": "In this game, the player shoots blocks to score as many points as possible before the timer runs out. Level 1 can be completed by earning 50 points. Level 2 is an infinite level in which the player can see how high of a score they can achieve. This is a basic shooter game where the player just has to get as many points as possible within the time limit."
+      },
+      "img":"BS.png"
+    },
+
+    {
+      "title": "Roller Madness",
+      "completed_on": "21.JUNE.2021",
+      "skills": ["Unity", "C#", "Game Development", "Game Design"],
+      "mentor": "Brian Winn",
+      "links": {
+        "itch_io": "https://aziogames1205.itch.io/roller-madness",
+        "github": "https://github.com/AbhiramSankar/RollerMadness.git",
+        "gitlab": "https://gitlab.com/AbhiramSankar/RollerMadness.git"
+      },
+      "text": {
+        "para1": "The Unity Engine was used to create this 3D Roller Ball game. This game has two levels and features like an enemy and Coin Spawning System, In-Game Mini Map, as well as a Variable Environment for each level.",
+        "para2": "In this game, the player must collect coins while avoiding being caught by the cubic enemies. Collecting 5 coins will get you through Level 1. Level 2 is an infinite level where the player can see how many coins he or she can collect."
+      },
+      "img":"RM.png"
+    },
+
+    {
+      "title": "AR Car Visualizer",
+      "completed_on": "10.AUGUST.2020",
+      "skills": ["Unity", "C#", "Augmented Reality", "Simulation"],
+      "mentor": "Himanshu Gupta",
+      "links": {
+        "itch_io": "https://aziogames1205.itch.io/ar-car-visualizer",
+        "github": "https://github.com/AbhiramSankar/ARCarVisualizer.git",
+        "gitlab": "https://gitlab.com/AbhiramSankar/ARCarVisualizer.git"
+      },
+      "text": {
+        "para1": "The Unity Engine and Google ARCore API were used to create this AR Car Visualization. Google's augmented reality platform, ARCore, allows developers to create augmented reality experiences. Plane detection and In-App Customization Menus are among the features available in this app.",
+        "para2": "This app gives users the option of selecting one of three cars and changing the color and orientation. The plane in which the appears can be chosen by the user. Multiple cars of various colors and types can be spawned."
+      },
+      "img":"ARC.png"
+    },
+
+    {
+      "title": "AR Snake",
+      "completed_on": "26.JULY.2020",
+      "skills": [
+        "Unity",
+        "C#",
+        "Augmented Reality",
+        "Game Development",
+        "Game Design"
+      ],
+      "mentor": "Himanshu Gupta",
+      "links": {
+        "itch_io": "https://aziogames1205.itch.io/ar-snake",
+        "github": "https://github.com/AbhiramSankar/ARSnake.git",
+        "gitlab": "https://gitlab.com/AbhiramSankar/ARSnake.git"
+      },
+      "text": {
+        "para1": "This is the augmented reality version of the popular snake mobile game. This augmented reality game was made with the Unity Engine and Google ARCore. ARCore is Google's platform for creating augmented reality experiences. This app includes features such as Plane Detection and In-Game Points.",
+        "para2": "Similarly to the classic game, this game entails collecting snake food to increase the length of the snake. In contrast to the classic game, there are no obstacles and the game is an infinite point level. This is a proof of concept game that requires more work."
+      },
+      "img":"ARSnake.png"
+    },
+
+    {
+      "title": "TANKS!",
+      "completed_on": "12.JUNE.2020",
+      "skills": [
+        "Unity",
+        "C#",
+        "Game Development",
+        "Game Design",
+        "Multiplayer"
+      ],
+      "mentor": "Himanshu Gupta",
+      "links": {
+        "itch_io": "https://aziogames1205.itch.io/tanks",
+        "github": "https://github.com/AbhiramSankar/TANKS.git",
+        "gitlab": "https://gitlab.com/AbhiramSankar/TANKS.git"
+      },
+      "text": {
+        "para1": "TANKS! is a multiplayer game for a single device. The Unity Engine was used to create this game. This includes features such as different control inputs for different players and a health bar system.",
+        "para2": "This is a straightforward 1v1 multiplayer game. Players must shoot each other with their tanks until one of them runs out of health."
+      },
+      "img":"Tanks.png"
+    },
+
+    {
+      "title": "Roller Ball",
+      "completed_on": "7.JUNE.2020",
+      "skills": ["Unity", "C#", "Game Development", "Game Design"],
+      "mentor": "Himanshu Gupta",
+      "links": {
+        "itch_io": "https://aziogames1205.itch.io/roller-ball",
+        "github": "https://github.com/AbhiramSankar/RollerBall.git",
+        "gitlab": "https://gitlab.com/AbhiramSankar/RollerBall.git"
+      },
+      "text": {
+        "para1": "Roller Ball is a straightforward single-level game created with the Unity Engine. It's a rudimentary proof-of-concept game I made when I first started using Unity. It has a system for keeping track of scores. The goal of the game is to collect all of the cubes so that you can earn points."
+      },
+      "img":"RB.png"
+    },
+
+    {
+      "title": "Cyber Security Major Project",
+      "completed_on": "26.MAY.2020",
+      "skills": [
+        " Cyber Security",
+        "Python",
+        "Linux",
+        "PGP",
+        "Temporary Emails"
+      ],
+      "mentor": "Animesh Roy",
+      "links": {
+        "report": "https://drive.google.com/file/d/1ROGvm3kQXO2Z0sW0aEK_SRCQAmEGo8jk/view?usp=sharing"
+      },
+      "text": {
+        "para1": "We looked at temporary and disposable emails, installed and sent a message using PGP, and sent an email using Python in this project. We learned about the services provided by temporary emails, the process involved in PGP messaging, and whether Python can perform tasks such as emailing multiple people, pulling a list of people to email from an external file, and email personalization. Using what was learned here, questions about email services were discussed and answered, such as their security, service provider practices, and vulnerabilities."
+      },
+      "img":"CSMP.png"
+    },
+
+    {
+      "title": "SQL Injection",
+      "completed_on": "11.MAY.2020",
+      "skills": ["Cyber Security", "SQL Injection", "Linux", "Burpsuite"],
+      "mentor": "Animesh Roy",
+      "links": {
+        "report": "https://drive.google.com/file/d/1rK99R379rzLMtGmio04dAOa7X_BmY868/view?usp=sharing"
+      },
+      "text": {
+        "para1": "Databases are used to store and manage information on modern websites. We want to learn more about the framework that allows us to connect a webpage to a database. We will attempt to exploit the known vulnerability in order to gain access to the database and obtain more information. This is accomplished by utilizing one of the worst known vulnerabilities for a website - SQL Injection.",
+        "para2": "We will find and exploit vulnerabilities in the test website in this project. By exploiting these vulnerabilities, you can obtain information about the website as well as the flag. Please also provide a fix for this bug.",
+        "para3": "We will be using the Kali Linux operating system for this project."
+      },
+      "img":"SQLI.png"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "data": [
+    {
+      "title": "SQL for Data Science",
+      "completed_on": "18.OCTOBER.2021",
+      "issuing_organization": "Coursera",
+      "issuing_institute": "University of California, Davis (UCDAVIS)",
+      "mentors": "Sadie St. Lawrence",
+      "grade_achieved": "97.29%",
+      "issue_date": "18 October 2021",
+      "expiration_date": "This certification does not expire",
+      "credential_id": "4QAL4ZZ5ALGF",
+      "credential_url": "https://www.coursera.org/account/accomplishments/certificate/4QAL4ZZ5ALGF",
+      "cert_img": "cert1.jpg",
+      "cert_icon":"ucdavis.png"
+    },
+
+    {
+      "title": "Machine Learning Foundations: A Case Study Approach",
+      "completed_on": "06.SEPTEMBER.2021",
+      "issuing_organization": "Coursera",
+      "issuing_institute": "University of Washington",
+      "mentors": "Emily Fox and Carlos Guestrin",
+      "grade_achieved": "96.62%",
+      "issue_date": "06 September 2021",
+      "expiration_date": "This certification does not expire",
+      "credential_id": "NLFXKT96M9ML",
+      "credential_url": "https://www.coursera.org/account/accomplishments/certificate/NLFXKT96M9ML",
+      "cert_img": "cert2.jpg",
+      "cert_icon":"UoW.png"
+    },
+
+    {
+      "title": "Programming for Everybody (Getting Started with Python)",
+      "completed_on": "29.AUGUST.2021",
+      "issuing_organization": "Coursera",
+      "issuing_institute": "University of Michigan",
+      "mentors": "Charles Severance",
+      "grade_achieved": "95.87%",
+      "issue_date": "29 August 2021",
+      "expiration_date": "This certification does not expire",
+      "credential_id": "S68CTDDCJ5BG",
+      "credential_url": "https://www.coursera.org/account/accomplishments/certificate/S68CTDDCJ5BG",
+      "cert_img": "cert3.jpg",
+      "cert_icon":"UoM.png"
+    },
+
+    {
+      "title": "Game Design and Development 2: 2D Platformer",
+      "completed_on": "28.JULY.2021",
+      "issuing_organization": "Coursera",
+      "issuing_institute": "Michigan State University",
+      "mentors": "Brian M. Winn",
+      "grade_achieved": "97.75%",
+      "issue_date": "28 July 2021",
+      "expiration_date": "This certification does not expire",
+      "credential_id": "MK9M8M8UCHYZ",
+      "credential_url": "https://www.coursera.org/account/accomplishments/certificate/MK9M8M8UCHYZ",
+      "cert_img": "cert4.jpg",
+      "cert_icon":"msu.png"
+    },
+
+    {
+      "title": "Game Design and Development 1: 2D Shooter",
+      "completed_on": "08.JULY.2021",
+      "issuing_organization": "Coursera",
+      "issuing_institute": "Michigan State University",
+      "mentors": "Brian M. Winn",
+      "grade_achieved": "96%",
+      "issue_date": "08 July 2021",
+      "expiration_date": "This certification does not expire",
+      "credential_id": "7LRSCRLHYEZ8",
+      "credential_url": "https://www.coursera.org/account/accomplishments/certificate/7LRSCRLHYEZ8",
+      "cert_img": "cert5.jpg",
+      "cert_icon":"msu.png"
+    },
+
+    {
+      "title": "Introduction to Game Development",
+      "completed_on": "05.JULY.2021",
+      "issuing_organization": "Coursera",
+      "issuing_institute": "Michigan State University",
+      "mentors": "Brian M. Winn",
+      "grade_achieved": "95.30%",
+      "issue_date": "05 July 2021",
+      "expiration_date": "This certification does not expire",
+      "credential_id": "J8RLJMU62YSY",
+      "credential_url": "https://www.coursera.org/account/accomplishments/certificate/J8RLJMU62YSY",
+      "cert_img": "cert6.jpg",
+      "cert_icon":"msu.png"
+    },
+
+    {
+      "title": "Augmented Reality and Virtual Reality",
+      "completed_on": "01.AUGUST.2020",
+      "issuing_organization": "VERZEO",
+      "mentors": "Himanshu Gupta",
+      "issue_date": "28 October 2020",
+      "expiration_date": "This certification does not expire",
+      "credential_id": "128058523",
+      "credential_url": "https://drive.google.com/file/d/13vqmVGiazSGvN92NA0suzuz4zc8cDbUV/view?usp=sharing",
+      "cert_img": "cert7.jpg",
+      "cert_icon":"verzeo.png"
+    },
+
+    {
+      "title": "Cyber Security",
+      "completed_on": "31.MAY.2020",
+      "issuing_organization": "VERZEO",
+      "mentors": "Animesh Roy",
+      "issue_date": "08 June 2020",
+      "expiration_date": "This certification does not expire",
+      "credential_id": "ncaQeqrRSo",
+      "credential_url": "https://drive.google.com/file/d/10HNYww7DHGJZTW_IYTXdyZfja6QZiHNs/view?usp=sharing",
+      "cert_img": "cert8.jpg",
+      "cert_icon":"verzeo.png"
+    }    
+  ]
+}

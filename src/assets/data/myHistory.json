@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "type": "Job",
+      "location": "Ignite Software and Design",
+      "position": "Full Stack Developer",
+      "years": "2022 - Present"
+    },
+    {
+      "type": "Education",
+      "location": "National Institute of Technology Puducherry",
+      "course": "B.Tech - Electronics and Communication Engineering",
+      "years": "2018 - 2022",
+      "grade_type": "CGPA",
+      "grade": "7.75"
+    },
+    {
+      "type": "Education",
+      "location": "Indian School Bahrain",
+      "course": "Higher Secondary - CBSE",
+      "years": "2017 - 2018",
+      "grade_type": "Percentage",
+      "grade": "85.60%"
+    },
+    {
+      "type": "Education",
+      "location": "Indian School Bahrain",
+      "course": "High School - CBSE",
+      "years": "2015 - 2016",
+      "grade_type": "CGPA",
+      "grade": "10"
+    }
+  ]
+}

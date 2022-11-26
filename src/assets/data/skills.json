@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "title": "Programming Languages",
+      "list": [
+        { "name": "C", "img": "C.png" },
+        { "name": "C++", "img": "Cpp.png" },
+        { "name": "C# (Unity)", "img": "Csharp.png" },
+        { "name": "JavaScript", "img": "JS.png" },
+        { "name": "PHP", "img": "PHP.png" },
+        { "name": "Python", "img": "Python.png" }
+      ]
+    },
+    {
+      "title": "Game Development",
+      "list": [{ "name": "Unity", "img": "Unity.png" }]
+    },
+    {
+      "title": "Machine Learning",
+      "list": [
+        { "name": "TensorFlow", "img": "TF.png" },
+        { "name": "TuriCreate", "img": "TC.png" }
+      ]
+    },
+    {
+      "title": "Database Management System",
+      "list": [
+        { "name": "Amazon DynamoDB", "img": "DynamoDB.png" },
+        { "name": "MySQL", "img": "MySQL.png" },
+        { "name": "SQLite", "img": "SQLite.png" }
+      ]
+    },
+    {
+      "title": "Media Editing Tools",
+      "list": [
+        { "name": "Adobe Photoshop", "img": "Photoshop.png" },
+        { "name": "Adobe Premiere Pro", "img": "Premiere.png" }
+      ]
+    },
+    {
+      "title": "Libraries and Frameworks",
+      "list": [
+        { "name": "jQuery", "img": "jQuery.png" },
+        { "name": "Laravel", "img": "Laravel.png" },
+        { "name": "Numpy", "img": "NumPy.png" },
+        { "name": "Pandas", "img": "Pandas.png" },
+        { "name": "React", "img": "React.png" },
+        { "name": "Sass", "img": "Sass.png" }
+      ]
+    },
+    {
+      "title": "Other Skills",
+      "list": [
+        { "name": "CSS3", "img": "CSS3.png" },
+        { "name": "HTML5", "img": "HTML5.png" },
+        { "name": "MATLAB", "img": "Matlab.png" }
+      ]
+    }
+  ]
+}

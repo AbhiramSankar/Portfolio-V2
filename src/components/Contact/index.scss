@@ -1,0 +1,232 @@
+@use '../../variables';
+
+.contactPage {
+  overflow: hidden;
+  position: relative;
+  .textZone {
+    position: absolute;
+    left: 7%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+    h1 {
+      font-size: 53px;
+      font-family: variables.$secondary_font;
+      color: variables.$primary;
+      font-weight: 400;
+      margin-top: 0;
+      position: relative;
+      margin-bottom: 65px;
+      left: 10px;
+
+      &::before {
+        content: '<h1>';
+        font-family: variables.$quaternary_font;
+        color: variables.$primary;
+        font-size: 25px;
+        opacity: 0.6;
+        position: absolute;
+        margin-top: -30px;
+        line-height: 25px;
+        left: -20px;
+      }
+
+      &::after {
+        content: '</h1>';
+        font-family: variables.$quaternary_font;
+        color: variables.$primary;
+        font-size: 25px;
+        line-height: 25px;
+        opacity: 0.6;
+        position: absolute;
+        left: -20px;
+        bottom: -30px;
+        // margin-left: 20px;
+        animation: fadeIn 1s 1.7s backwards;
+      }
+    }
+
+    p {
+      font-size: 15px;
+      color: variables.$tertiary;
+      font-family: variables.$tertiary_font;
+      font-weight: 300;
+      min-width: fit-content;
+      opacity: 0;
+      animation: fadeInDown;
+      animation-duration: 1.5s;
+      animation-delay: 1s;
+      animation-fill-mode: forwards;
+      margin-left: 5%;
+
+      &:nth-of-type(1) {
+        animation-delay: 1.6s;
+      }
+
+      &:nth-of-type(2) {
+        animation-delay: 1.7s;
+      }
+
+      &:nth-of-type(3) {
+        animation-delay: 1.8s;
+      }
+    }
+
+    .sectionContent {
+      &::before {
+        content: '<p>';
+        font-family: variables.$quaternary_font;
+        color: variables.$primary;
+        font-size: 25px;
+        opacity: 0.6;
+        position: absolute;
+        margin-top: -30px;
+        line-height: 25px;
+        left: 7px;
+      }
+
+      &::after {
+        content: '</p>';
+        font-family: 'La Belle Aurore';
+        color: variables.$primary;
+        font-size: 25px;
+        line-height: 25px;
+        opacity: 0.6;
+        position: absolute;
+        left: 7px;
+        bottom: -30px;
+        /* margin-left: 20px; */
+        animation: fadeIn 1s 1.7s backwards;
+      }
+    }
+  }
+
+  .textAnimateHover {
+    &:hover {
+      color: variables.$tertiary;
+    }
+  }
+}
+.contactFormWrapper {
+  position: absolute;
+  top: 30%;
+  left: 55%;
+  .contactForm {
+    width: 100%;
+    margin: 20px;
+    ul {
+      padding: 0;
+      margin: 0;
+      li {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-bottom: 10px;
+        overflow: hidden;
+        display: block;
+        position: relative;
+        opacity: 0;
+        animation: fadeInUp 2s 2s forwards;
+        clear: both;
+      }
+      li.half {
+        width: 49%;
+        margin-left: 2%;
+        float: left;
+        clear: none;
+
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+
+    input[type='text'],
+    input[type='email'] {
+      width: 100%;
+      border: 0;
+      background-color: #7994b5;
+      height: 50px;
+      border-radius: 15px;
+      font-size: 16px;
+      color: variables.$tertiary;
+      padding: 0 20px;
+      box-sizing: border-box;
+      &::placeholder {
+        color: variables.$tertiary;
+        opacity: 0.5;
+      }
+    }
+
+    textarea {
+      width: 100%;
+      border-radius: 15px;
+      border: 0;
+      background-color: #7994b5;
+      height: 50px;
+      font-size: 16px;
+      color: variables.$tertiary;
+      padding: 20px;
+      min-height: 200px;
+      box-sizing: border-box;
+      resize: none;
+      &::placeholder {
+        color: variables.$tertiary;
+        opacity: 0.5;
+      }
+    }
+
+    button {
+      position: relative;
+      margin-top: 10px;
+      display: flex;
+      padding: 17px;
+      width: 20%;
+      border: 2px solid variables.$primary;
+      border-radius: 25px;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      background-color: transparent;
+      svg {
+        position: absolute;
+        color: variables.$primary;
+        font-size: 20px;
+        left: 35%;
+        transition: all 1s;
+      }
+      &::after{
+        content: 'SEND';
+        position: absolute;
+        color: variables.$tertiary;
+        font-size: 16px;
+        margin-left: 10px;
+        left: 20%;
+        opacity: 0;
+        color: variables.$primary;
+        transition: all 1s;
+      }
+      &:hover{
+        // animation: slideInLeft 1s;
+        background-color: variables.$primary;
+        svg {
+          color: variables.$tertiary;
+          font-size: 20px;
+          left: 15px;
+        }
+       &::after{
+          content: 'SEND';
+          color: variables.$tertiary;
+          font-size: 16px;
+          margin-left: 10px;
+          left: 30%;
+          opacity: 1;
+        }
+      }
+      
+    }
+  }
+}

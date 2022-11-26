@@ -1,0 +1,68 @@
+@use '../../variables';
+
+.logoContainer {
+  z-index: 0;
+  width: 406px;
+  height: 609px;
+  position: absolute;
+  top: 24px;
+  right: 15%;
+  bottom: 15%;
+  left: auto;
+  margin: auto;
+  opacity: 0;
+  svg {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    transform: rotateZ(25deg) !important;
+  }
+
+  .solidLogo {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    opacity: 0;
+    transform: rotateZ(25deg);
+    z-index: 1;
+  }
+}
+
+.svgContainer {
+  stroke-width: 1px;
+  .svgAContainer {
+    stroke: variables.$tertiary;
+  }
+  .svgS1Container {
+    stroke: variables.$primary;
+  }
+  .svgS2Container {
+    stroke: variables.$primary;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .logoContainer{
+    // display: none;
+    position: absolute;
+    z-index: 0;
+    width: clamp(20rem, 40vw - 2rem ,40rem);
+    height: auto;
+    top: 17vh;
+    margin: auto;
+    left: 0;
+    right: 0;
+    svg{
+      position: absolute;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: 0;
+      margin: auto;
+    }
+  }
+}
